@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
   ## This returns a list of outputs from this function for the user to retrieve if needed
   list(set = set, get = get,
        setinverse = setinverse,
-       getinverse = getinverse)
+       getinverse = getinverse) 
 }
 
 
